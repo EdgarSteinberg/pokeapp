@@ -1,0 +1,14 @@
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 500px;
+}

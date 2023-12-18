@@ -1,0 +1,138 @@
+.container {
+  max-width: 75%; /* Reducir el ancho máximo para hacer más pequeña la barra de navegación */
+  margin: 0 auto;
+}
+
+.nav {
+  
+    box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:  #ececec;
+}
+
+.nav_bar {
+    font-size: 14px;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 600;
+    /* Establecer tamaño fijo para cada enlace */
+    width: 60px; /* Ancho fijo */
+    height: 30px; /* Altura fija, ajusta según sea necesario */
+    display: flex; /* Alinear contenido al centro vertical y horizontal */
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+  margin: 0 15px 10px 0 ;
+}
+
+.fairy {
+  text-transform: capitalize; /* Puedes usar 'uppercase' si quieres todas las letras en mayúsculas */
+}
+
+/* Ejemplo de colores para cada categoría */
+.todos{
+    background-color: white;
+    color: black;
+}
+.electric {
+    background-color: #FFCC00; /* Amarillo */
+    color: black;
+  }
+  
+  .normal {
+    background-color: #999999; /* Gris */
+    color: black;
+  }
+  
+  .fighting {
+    background-color: #FF0000; /* Rojo */
+    color: black;
+  }
+  
+  .poison {
+    background-color: #AA00AA; /* Morado */
+    color: black;
+  }
+  
+  .flying {
+    background-color: #6699FF; /* Azul claro */
+    color: black;
+  }
+  
+  .ground {
+    background-color: #E0C068; /* Marrón claro */
+    color: black;
+  }
+  
+  .rock {
+    background-color: #B8A038; /* Marrón oscuro */
+    color: black;
+  }
+  
+  .bug {
+    background-color: #A8B820; /* Verde oliva */
+    color: black;
+  }
+  
+  .ghost {
+    background-color: #5555FF; /* Azul */
+    color: black;
+  }
+  
+  .steel {
+    background-color: #B8B8D0; /* Gris claro */
+    color: black;
+  }
+  
+  .fire {
+    background-color: #FF4400; /* Naranja */
+    color: black;
+  }
+  
+  .water {
+    background-color: #3399FF; /* Azul */
+    color: black;
+  }
+  
+  .grass {
+    background-color: #77CC55; /* Verde */
+    color: black;
+  }
+  
+  .psychic {
+    background-color: #FF5599; /* Rosa */
+    color: black;
+  }
+  
+  .ice {
+    background-color: #66CCFF; /* Celeste */
+    color: black;
+  }
+  
+  .dragon {
+    background-color: #7766DD; /* Morado azulado */
+    color: black;
+  }
+  
+  .dark {
+    background-color: #705848; /* Marrón oscuro */
+    color: black;
+  }
+  
+  .fairy {
+    background-color: #EE99EE; /* Rosa claro */
+    color: black;
+  }
+
+  
