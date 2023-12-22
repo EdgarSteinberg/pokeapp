@@ -135,4 +135,35 @@
     color: black;
   }
 
+  @media screen and (max-width: 500px) {
+    
+    .container {
+      max-width: 100%; /* Reducir el ancho máximo para hacer más pequeña la barra de navegación */
+      margin: 0 auto;
+    }
+    .nav {
+      width: 100%;
+      box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      border-radius: 10px;
+      background-color:  #ececec;
+  }
+  .nav_bar {
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 600;
+    /* Establecer tamaño fijo para cada enlace */
+    width: 55px; /* Ancho fijo */
+    height: 30px; /* Altura fija, ajusta según sea necesario */
+    display: flex; /* Alinear contenido al centro vertical y horizontal */
+    justify-content: center;
+    align-items: center;
+}
+    
+  }
+
   
